@@ -1,0 +1,68 @@
+
+<div class="title">
+    <h4>Directives</h4>
+  
+</div>
+
+<!--<div *ngIf="book else bookNotAvailable">
+    <p>Book found</p>
+</div>
+
+<ng-template #bookNotAvailable>
+    <p>Book not found</p>
+
+</ng-template>-->
+
+
+
+<!--<div *ngIf="book;then bookAvailable;else bookNotAvailable" ></div>
+<ng-template #bookAvailable>Book bookAvailable</ng-template>
+<ng-template #bookNotAvailable> No Book Available</ng-template>-->
+
+  <!--
+        e=exp.bookstatus
+        switch(e)
+        {
+            case:Available
+            
+            case:Not Available
+        }
+    -->
+
+<!--<div *ngFor="let exp of books; index as i; even as e; first as f">
+    <div [ngSwitch]="exp.bookstatus">
+        <div *ngSwitchCase="'Available'">
+            <div>{{i+1}}-{{exp.bookname}}</div>
+        </div>
+
+        <div *ngSwitchDefault>
+            <div>Default-{{exp.bookname}}</div>
+        </div>
+    </div>
+
+    
+</div>-->
+
+<div *ngFor="let exp of books; index as i; even as e; first as f">
+    <!--<div [ngSwitch]="exp.bookstatus">
+        <div *ngSwitchCase="'Available'" [ngStyle]="{'color':'green'}">
+            <div>{{i+1}}-{{exp.bookname}}</div>
+        </div>
+
+        <div *ngSwitchDefault>
+            <div>Default-{{exp.bookname}}</div>
+        </div>
+    </div>-->
+
+   <!-- <div [ngClass]=
+    "{'avl':exp.bookstatus=='Available','nvl':exp.bookstatus=='Not Available'}">
+    {{i+1}}-{{exp.bookname}}
+</div>-->
+
+    
+</div>
+
+
+
+
+

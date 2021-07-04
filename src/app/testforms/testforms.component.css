@@ -1,0 +1,10 @@
+form
+{
+    background-color:rgb(235, 224, 224);
+    border-radius: 20px;
+    padding: 20px;
+}
+.form-control
+{
+    border-radius: 10px;
+}

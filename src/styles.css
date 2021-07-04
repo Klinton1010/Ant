@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+h3
+{
+    color: white;
+    font-weight: bold;
+}
+.title
+{
+    text-align: center;
+    vertical-align: bottom;
+    background-color: lightskyblue;
+    height: 60px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.columnPan
+{
+    height: 80vh;
+    border-color: lightgrey;
+    border-style: solid;
+}
+.container
+{
+    margin-top: 20px;
+}
+
+
+.form-control.ng-touched.ng-invalid
+{
+    border: 2px solid red;
+}
